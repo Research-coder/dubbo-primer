@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MybatisBuilder.project.settings">
+    <option name="connectionInfoList">
+      <list>
+        <ConnectionInfo>
+          <option name="database" value="db3" />
+          <option name="description" value="" />
+          <option name="driverClass" value="" />
+          <option name="driverLibrary" value="" />
+          <option name="driverType" value="MySQL" />
+          <option name="host" value="localhost" />
+          <option name="id" value="86851933c365424ba74e80c25f9b6f16" />
+          <option name="name" value="test" />
+          <option name="port" value="3306" />
+          <option name="url" value="" />
+          <option name="userName" value="root" />
+        </ConnectionInfo>
+      </list>
+    </option>
+    <option name="defaultParameters">
+      <DefaultParameters>
+        <option name="renameConfig">
+          <Config>
+            <option name="mapperTypePattern" value="" />
+            <option name="exampleTypePattern" value="" />
+            <option name="sqlFileNamePattern" value="" />
+          </Config>
+        </option>
+        <option name="selectWithLockConfig">
+          <SelectWithLockConfig>
+            <option name="byPrimaryKeyWithLockOverride" value="" />
+            <option name="byExampleWithLockOverride" value="" />
+          </SelectWithLockConfig>
+        </option>
+      </DefaultParameters>
+    </option>
+    <option name="lastGeneratorParamWrapper">
+      <GeneratorParamWrapper>
+        <option name="defaultTableConfigWrapper">
+          <TableConfigurationWrapper>
+            <option name="countByExampleStatementEnabled" value="false" />
+            <option name="deleteByExampleStatementEnabled" value="false" />
+            <option name="deleteByPrimaryKeyStatementEnabled" value="false" />
+            <option name="domainObjectRenamingRule">
+              <DomainObjectRenamingRule>
+                <option name="replaceString" value="" />
+                <option name="searchString" value="" />
+              </DomainObjectRenamingRule>
+            </option>
+            <option name="generatedKeyWrapper">
+              <GeneratedKeyWrapper>
+                <option name="column" value="id" />
+                <option name="identity" value="true" />
+                <option name="statement" value="JDBC" />
+                <option name="type" value="" />
+              </GeneratedKeyWrapper>
+            </option>
+            <option name="updateByExampleStatementEnabled" value="false" />
+          </TableConfigurationWrapper>
+        </option>
+        <option name="javaClientConfig">
+          <JavaClientGeneratorConfiguration>
+            <option name="configurationType" value="XMLMAPPER" />
+            <option name="targetPackage" value="mapper" />
+            <option name="targetProject" value="D:\dubbo_primer\dubboBean" />
+          </JavaClientGeneratorConfiguration>
+        </option>
+        <option name="javaModelConfig">
+          <JavaModelGeneratorConfiguration>
+            <option name="targetPackage" value="com.example01.entity" />
+            <option name="targetProject" value="D:\dubbo_primer\dubboBean" />
+          </JavaModelGeneratorConfiguration>
+        </option>
+        <option name="selectedPlugins">
+          <map>
+            <entry key="com.chuntung.plugin.mybatis.builder.generator.plugins.selectwithlock.SelectWithLockPlugin">
+              <value>
+                <PluginConfigWrapper>
+                  <option name="json" value="{&quot;byPrimaryKeyWithLockOverride&quot;:&quot;&quot;,&quot;byExampleWithLockOverride&quot;:&quot;&quot;,&quot;byPrimaryKeyWithLockEnabled&quot;:true,&quot;byExampleWithLockEnabled&quot;:false}" />
+                  <option name="type" value="com.chuntung.plugin.mybatis.builder.generator.plugins.selectwithlock.SelectWithLockConfig" />
+                </PluginConfigWrapper>
+              </value>
+            </entry>
+          </map>
+        </option>
+        <option name="sqlMapConfig">
+          <SqlMapGeneratorConfiguration>
+            <option name="targetPackage" value="sqlmap" />
+            <option name="targetProject" value="D:\dubbo_primer\dubboBean" />
+          </SqlMapGeneratorConfiguration>
+        </option>
+      </GeneratorParamWrapper>
+    </option>
+    <option name="tableInfoMap">
+      <map>
+        <entry key="db3#user">
+          <value>
+            <TableInfo>
+              <option name="customColumns">
+                <list />
+              </option>
+              <option name="database" value="db3" />
+              <option name="domainName" value="User" />
+              <option name="tableName" value="user" />
+            </TableInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
