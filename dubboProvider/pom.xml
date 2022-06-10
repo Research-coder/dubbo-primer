@@ -66,7 +66,7 @@
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>dubbo</artifactId>
-            <version>2.6.0</version>
+            <version>2.6.12</version>
         </dependency>
         <!--zookeeper的版本必须与windows/linux的桌面服务中心的版本一致,否则无法建立通讯-->
         <dependency>
